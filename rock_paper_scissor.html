@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock Paper Scissors</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="result">
+			<h2 id="round"></h2>
+			<h2 id="result"></h2>
+		</div>
+
+		<img src="resources/blank.png" alt="" id="player"style="width:100px;height:100px;">
+		<img src="resources/blank.png" alt="" id="computer"style="width:100px;height:100px;">
+	
+
+		<br>
+		<br><br><br>
+		<div class="choices">
+		<img src="resources/rock_player.png" alt="" onclick="playerChoice('rock')" style="width:100px;height:100px;">
+		<img src="resources/paper_player.png" alt="" onclick="playerChoice('paper')"style="width:100px;height:100px;">
+		<img src="resources/scissor_player.png" alt="" onclick="playerChoice('scissors')"style="width:100px;height:100px;">
+	   
+	</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
